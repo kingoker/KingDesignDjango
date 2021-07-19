@@ -1,10 +1,10 @@
+from django.contrib import messages
+from django.contrib.auth import login, logout
+from django.contrib.auth.forms import AuthenticationForm
 from django.shortcuts import render, redirect
 from django.views.generic import ListView, DetailView
-from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
-from django.contrib import messages
-from .forms import UserRegisterForm, ProneNumberForm
-from django.contrib.auth import login, logout
 
+from .forms import UserRegisterForm, ProneNumberForm
 from .models import Project, Author
 
 

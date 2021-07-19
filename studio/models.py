@@ -1,7 +1,6 @@
-from django.db import models
 from datetime import date
 
-
+from django.db import models
 # Категории
 from django.urls import reverse
 
